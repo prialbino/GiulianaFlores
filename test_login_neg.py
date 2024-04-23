@@ -32,3 +32,5 @@ class Test_LoginNeg():
         self.driver.find_element(By.ID, "ContentSite_ibtContinue").click()
         time.sleep(10)
         assert self.driver.find_element(By.CSS_SELECTOR, ".aviso-erro").text == 'ATENÇÃO - e-mail ou senha inválidos!'
+
+        
