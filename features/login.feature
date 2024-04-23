@@ -9,13 +9,13 @@ Feature: Sign up an account
     Scenario: Successfully Sign in  
         Given I access the Giuliana Flores website
         When I click in the login button
-        And I inform the email kaique-dacunha92@otlokk.com and the password ctnj41Efxi
+        And I inform the email emanuel-campos88@acaoi.com.br and the password CFIMA5qmR6
         Then I will be successfully directed to a Home page 
 
     Scenario: Invalid Sign in 
         Given I access the Giuliana Flores website
         When I click in the login button
-        And I inform the email kaique-dacunha92@otlokk.com and the password water10
+        And I inform the email emanuel-campos88@acaoi.com.br and the password water10
         Then shows the login ATENÇÃO - e-mail ou senha inválidos! error 
     
 
